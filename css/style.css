@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    overflow: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+@font-face{
+    font-family: "Golos";
+    src: url(../font/Golos-Text_Regular.woff);
+    font-weight: 300;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+body{
+    font-family: "Golos";
+}
+.container{
+    width: 1350px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+/* *********************************************Navbar ******************************************* */
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.navbar-left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-left-section ul{
+    padding-left: 100px;
+}
+.navbar-left-section ul li{
+    display: inline-block;   
+    padding: 0 15px;
+}
+.navbar-left-section ul li .active{
+    box-shadow: 0 2px 0px rgb(6, 195, 166, 1);
+    color: #06C3A6;
+}
+.navbar-left-section ul li a{
+    color: #1B1A1F;
+}
+.navbar-left-section ul li a:hover{
+    color: #06C3A6;
+    box-shadow: 0 2px 0px rgb(6, 195, 166, 1);
+}
+.navbar-link-item-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-link-item-3 a img{
+    width: 25px;
+    padding-right: 10px;
+}
+
+.navbar-right-section ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-right-section ul li{
+    padding: 0 20px;
+}
+.navbar-right-section ul li a{
+    color: #1B1A1F;
+}
+.navbar-right-section ul li a:hover{
+    color: #06C3A6;
+}
+/* ****************************************header-section *******************************/
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text h1{ 
+    letter-spacing: 2px;
+    font-size: 55px;
+}
+.header-text h1 span{
+    color: #06C3A6;
+}
+/* ****************************************categorys ***************************************/
+.categorys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.category-item{
+    padding: 0 20px;
+}
+.category-item a img{
+    width: 150px;
+}
+/****************************************video-call-section  ********************************/
+.video-call{
+    margin: 100px 0;
+}
+.video-call-section{
+    background: url("../img/Group\ 29.png") no-repeat;
+    background-size: contain;
+    
+}
+.video-call-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 60px 80px 150px 80px;
+}
+.video-call-section-text{
+    /* width: 30%; */
+}
+.video-call-section-text .logo img{
+    width: 40px;
+}
+.video-call-section-text h3{
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+.video-call-section-text p{
+    font-size: 16px;
+    width: 50%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.video-call-section-text a{
+    background-color: #fff;
+    color: #06C3A6;
+    padding: 15px 50px;
+    border-radius: 50px;
+}
+.video-call-section-text a:hover{
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+}
+
+.video-call-section-imgs{
+    
+}
+.video-call-section-img{
+    position: absolute;
+}
+.video-call-section-img img{
+    width: 130px;
+}
+.small-1{
+    top: 48%;
+    left: 60%;
+}
+.small-1 img{
+    width: 120px;
+}
+
+.small-2{
+    top: 45%;
+    left: 45%;
+}
+
+.small-3{
+    top: 10%;
+    left: 50%;
+}
+.small-3 img{
+    width: 150px;
+}
+
+.small-4{
+    top: 10%;
+    left: 66%;
+}
+.small-4 img{
+    width: 110px;
+}
+
+.small-5{
+    top: 10%;
+    left: 80%;
+}
+
+/* *************************************services****************************************** */
+.services-items{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.services-item{
+    position: relative;
+    width: 300px;
+    height: 230px;
+    padding: 20px;
+    background-color: #F5F5FA;
+    border-radius: 25px;
+}
+.services-items a{
+    margin: 0 20px;
+}
+.services-item img{
+    padding: 10px;
+}
+.services-text{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0;
+}
+.services-item.third .third-icon{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 40px;
+}
+.service-text h3{
+    font-size: 18px;
+    color: #1B1A1F;
+}
+
+
+
+
+
+
+
+
+
